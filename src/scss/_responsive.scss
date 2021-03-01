@@ -1,0 +1,96 @@
+@media screen and (min-width: 1250px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .header {
+    &__inner {
+      padding: 15px 0;
+    }
+  }
+  .logo {
+    flex-direction: row;
+    &__img {
+      height: 100px;
+    }
+    &__title {
+      margin-left: 20px;
+      font-size: 32px;
+    }
+  }
+  .btn {
+    font-size: 26px;
+    padding: 14px 60px 14px 34px;
+  }
+
+  .first-screen {
+    padding: 50px 0 40px;
+    &__h1 {
+      margin-bottom: 50px;
+    }
+    &__text {
+      max-width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    &__h3 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .h1 {
+    font-size: 45px;
+  }
+  .h2 {
+    font-size: 45px;
+  }
+  .h3 {
+    font-size: 30px;
+  }
+  .text-xl {
+    font-size: 30px;
+  }
+
+  .carte {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    &-item {
+      max-width: 255px;
+    }
+  }
+  .offer {
+    padding: 70px 0 130px;
+    &__h2 {
+      margin-bottom: 60px;
+    }
+  }
+  .slider {
+    width: 75%;
+  }
+  .slider-controls {
+    padding-top: 60px;
+  }
+  .slick-dots {
+    margin-left: 40px;
+    margin-right: 40px;
+    & > li {
+      height: 45px;
+      width: 45px;
+      & + li {
+        margin-left: 40px;
+      }
+    }
+  }
+
+  .slider-arrow {
+    height: 45px;
+  }
+
+  #copyright {
+    font-size: 22px;
+  }
+}
